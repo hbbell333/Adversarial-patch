@@ -17,11 +17,20 @@ I was not confident that this would be good enough for my purposes, but after ge
 
 Validation results:
 Validation results for bow tie and 16: {'acc': 0.0, 'top5': 0.006000000052154064}
+
 Validation results for bow tie and 32: {'acc': 0.13527053594589233, 'top5': 0.3336673378944397}
+
 Validation results for bow tie and 64: {'acc': 0.9884999990463257, 'top5': 0.9994999766349792}
+
 Validation results for coffee mug and 16: {'acc': 0.0, 'top5': 0.0030060119461268187}
+
 Validation results for coffee mug and 32: {'acc': 0.30611222982406616, 'top5': 0.6307615041732788}
+
 Validation results for coffee mug and 64: {'acc': 0.8855000138282776, 'top5': 0.9934999942779541}
+
 Validation results for safe and 16: {'acc': 0.0075150299817323685, 'top5': 0.044088177382946014}
+
 Validation results for safe and 32: {'acc': 0.018537074327468872, 'top5': 0.2394789606332779}
+
 Validation results for safe and 64: {'acc': 0.8289999961853027, 'top5': 0.9585000276565552}
+
