@@ -15,6 +15,8 @@ I was not confident that this would be good enough for my purposes, but after ge
 
 **Note** Since I commented out some of the classes (including goldfish and school bus) some of the sample code at the end of the notebook didn't run to perform patch attacks with these classes. I would have re-run the notebook to get everything to output clean, but I ran out of colab compute after debugging / generating patches. 
 
+There was also something weird with the validation results. During training they returned very high values, but in the tables from the example code the results were much worse. Since I got my adversarial patch to work using the test online, I'm assuming the higher values are accurate, and pasted them here. 
+
 Validation results:
 Validation results for bow tie and 16: {'acc': 0.0, 'top5': 0.006000000052154064}
 
