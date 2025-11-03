@@ -1,6 +1,9 @@
 # Adversarial-patch
 AIPI 590 Adversarial patch assignment
 
+**All uses of gemini cited in comments** 
+(Only in show_patch function)
+
 **Code explanation** Instead of trying to make the patch more robust to it's location in an image, I tried to constrict the patch outputs to be close to black / white. So, my changes are not in the place_patch function, but in the patch_forward and training loop functions below.
 
 My reason for constraining the patch as much as possible is so that I can hopefully recreat the patch by hand using embroidery thread. Since it would be basically impossible to match all of the colors generated in a non-constrained patch, black & white / greyscale would make the task more do-able.
